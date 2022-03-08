@@ -80,10 +80,16 @@ p{
 	background-color:#00BAE4;
 }
 
-.logo-dark{
-	background-color: #0B2343;
+.logo-dark
+{
+	background-color: #0B2343;	
 }
 
+.HeadSec
+{
+	display: flex;
+	justify-content: space-between;
+}
 
 
 
