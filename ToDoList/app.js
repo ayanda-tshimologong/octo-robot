@@ -1,5 +1,5 @@
 // ------------------------------------Declarators-------------------------------------------------------//
-const todoInput = document.querySelector('.to-do-input');
+const todoInput = document.querySelector('.todo-input');
 const todoButton = document.querySelector('.todo-button');
 const todoList = document.querySelector('.todo-list');
 const filterOption = document.querySelector('.filter-todo');
@@ -15,9 +15,17 @@ function addTodo(event){
   
     // prevent from submitting
     event.preventDefault();
+
+
+    if (todoInput.value==="")
+    {
+        alert("please enter something");
+    }
+    else{
     CreateElement(todoInput.value);
     //add todo to local storage
     saveLocalTodos(todoInput.value);
+    }
 
     
     //clear todo input value;
