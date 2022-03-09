@@ -3,6 +3,7 @@ form.addEventListener("submit", function(e) {
   e.preventDefault();
   sendData();
 });
+// const yourname = document.getElementById('yourname');
 
 // https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Sending_forms_through_JavaScript
 function sendData() {
@@ -15,6 +16,8 @@ function sendData() {
       "=" +
       encodeURIComponent(form.querySelector("[name='yourname']").value)
   );
+   
+
   urlEncodedDataPairs.push(
     encodeURIComponent("send_to") +
       "=" +
