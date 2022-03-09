@@ -1,6 +1,6 @@
 'use strict';
 
-Const clock = document.getElementById('clock');
+const clock = document.getElementById('clock');
 
 setInterval(() => {
   const currentTime = new Date().toLocaleTimeString([], { hour12: false });
@@ -10,7 +10,7 @@ setInterval(() => {
 
 const currentLocation = document.getElementById('currentLocation');
 const showIcon = document.getElementById('showIcon');
-const currentTemp = document.getElementById('curTemp');
+const currentTemp = document.getElementById('currentTemp');
 const feelsLike = document.getElementById('feelsLike');
 const description = document.getElementById('description');
 const hourlyForecast = document.getElementById('hourlyForecast');
@@ -28,9 +28,9 @@ const storeLocation = (pos) => {
   const long = pos.coords.longitude;
   // console.log(`lat ${lat} \nlon ${lon}`);
   // eslint-disable-next-line no-undef
-  const tempUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&exclude=minutely&appid=${API_KEY}`;
+  const tempUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${long}&exclude=minutely&appid=${API_KEY}`;
   // eslint-disable-next-line no-undef
-  const locationUrl = `http://api.openweathermap.org/geo/1.0/reverse?lat=${lat}&lon=${lon}&limit=5&appid=${API_KEY}`;
+  const locationUrl = `http://api.openweathermap.org/geo/1.0/reverse?lat=${lat}&lon=${long}&limit=5&appid=${API_KEY}`;
   fetchData(tempUrl);
   fetchCurrentLocation(locationUrl);
 };
@@ -45,7 +45,7 @@ const fetchCurrentLocation = locationUrl => {
 
 // request data from OpenWeatherMap
 const fetchData = (url) => {
-  fetch(urls)
+  fetch(url)
     .then(res => res.json())
     .then(data => {
       handleWeather(data);
@@ -64,8 +64,8 @@ const handleWeather = (data) => {
   const mainDesc = data.current.weather[0].main;
   const desc = data.current.weather[0].description;
   setInterval(() => {
-    currTemp.innerHTML = temp;
-    feelsLike.innerHTML = feel;
+    currentTemp.innerHTML = temp;
+    feelsLike.innerHTML = feeling;
     description.innerHTML = `${mainDesc} - ${desc}`;
   }, [1000]);
 
