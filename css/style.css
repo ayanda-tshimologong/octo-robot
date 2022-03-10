@@ -13,24 +13,43 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;
 */
 /* ========================================================= */
+
 html {
   box-sizing: border-box;
+  
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+/* header{
+	border: 1px solid white;	
+} */
+
+nav{
+	height: 30rem;
+	background-color: #0B2343;
+	
+	/* border: 1px solid black; */
+	/* background-image: url("../img/giphy.gif"); */
+}
+
+body{
+	margin: 0 auto;
+} 
 
 ul{
 	padding:0;
 	list-style:none;
 }
 
-img{
+/* img{
 	height: 320px;
 	width:320px;
-}
+} */
 
-/* ================================================= */
+/* =================================================== */
 
 h1{
 	color: #0B2343;
@@ -40,7 +59,7 @@ h1{
 }
 
 h2{
-	color: #0B2343;
+	color: #0B2343;	
 	font-family: 'Source Sans Pro',sans-serif;
 	font-weight: 700;
 	font-size:2rem;
@@ -69,9 +88,8 @@ p{
 	justify-content: space-between;
 	background-color: #0B2343;
 	padding: 10px;
-	
-	
-
+	width: 100%;
+	position: fixed;
 }
 
 .NavDisplay
@@ -87,7 +105,6 @@ ul li a
 	 padding: 15px;
 	text-decoration: none;
 	
-
 } 
 
 
@@ -97,8 +114,6 @@ ul li a:hover
 	color:#0B2343;
 
 }
-
-
 
 
 .logo-dark
@@ -124,7 +139,7 @@ ul li a:hover
 .gifworld
 {
 	display: flex;
-	width: min-content;
+	/* width: min-content; */
 	/* border: solid black; */
 
 }
@@ -132,7 +147,7 @@ ul li a:hover
 .dropbtn {
 	background-color:#0B2343;
 	color: white;
-	padding: 16px;
+	/* padding: 16px; */
 	font-size: 16px;
 	border: none;
 	cursor: pointer;
@@ -172,9 +187,6 @@ ul li a:hover
 
 
 
-
-
-
 /* END OF HEAD */
 
 /* ========================================================== */
@@ -183,14 +195,20 @@ ul li a:hover
 .whatIsApp
 {
 	display: flex;
-	margin-top: 2.5rem;
-	
+	height: 30rem;
+	background-image: url(../img/Photogrid.png);
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed ;	
 }
+
 .imagePic
 {
-	width: 25rem;
+
+	width: 30rem;
 	height: 25rem;
-	
+	margin: 2rem 5rem 0 5rem;
+	visibility: hidden;
 }
 
 .centAppFact
@@ -200,24 +218,54 @@ ul li a:hover
 
 .appPara
 {
-	padding-left: 10%;
+	padding-top: 5rem;
 }
 
-.imagePic
+/* .imagePic
 {
-	margin-left: 10rem;
-}
+	margin-left: 5rem;
+	padding-left: 5rem;
+} */
 
 .wrapWhat
 {
-	word-wrap: break-word;
-	width: 45rem;
+	word-wrap: break-word; 
+	padding: 2rem;
+
+	color:black;
+	font-weight: 700;
+	background-color:  rgba(255, 204, 5, 0.5);
+	
+	
+}
+
+
+.whatIsApp button {
+	padding: 1rem;
+	background-color: #00BAE4;
+	border: none;
+	border-radius:0.3rem ;
+	font-weight:bolder;
+	font-size: medium;
+	
+}
+
+
+.whatIsApp a{
+	text-decoration:none;
+	color: white;
 }
 
 .cloudMap
 {
-width:1;
-   
+   /* width:1; */
+   /* border:  2px solid red ; */
+
+}
+
+.cloudMap img{
+	width: 100%;
+
 }
 
 
@@ -249,12 +297,19 @@ width:1;
 .HeadSec
 {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	word-wrap: break-word;
+	/* background-color: #f07d5a ; */
+
 }
+
 
 .content{
 	width:15%
+}
+
+.content:hover{
+	border-bottom:0.5rem solid rgba(0,0,0,0.2) ;
 }
 
 
@@ -262,6 +317,27 @@ width:1;
 	display: flex;
 }
 
+footer{
+	background-color: #0B2343;
+	
+}
+
+.copyright img{
+	width: 5rem;
+	height: 5rem;
+	margin: 1rem 3rem;
+}
+
+aside{
+	display: flex;
+	/* border: 1px solid black; */
+	margin: 1rem;
+	justify-content:space-around
+}
+
+footer p{
+	color: #f1f1f1;
+}
 
 
 
