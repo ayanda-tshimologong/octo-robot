@@ -174,7 +174,12 @@ ul li a:hover
 	display: block;
   }
   
-  .dropdown-content a:hover {background-color: #f1f1f1}
+  .dropdown-content a:hover
+   {
+	   background-color:#00BAE4;
+       opacity: 0.1rem;
+	   color:#f1f1f1;
+   }
   
   .dropdown:hover .dropdown-content
    {
@@ -312,6 +317,16 @@ ul li a:hover
 	border-bottom:0.5rem solid rgba(0,0,0,0.2) ;
 }
 
+iframe
+{
+	margin-left: 40rem;
+}
+
+address h2,address h2 ul li
+{
+	padding-right: 35rem;
+}
+
 
 .copyright{
 	display: flex;
@@ -322,20 +337,25 @@ footer{
 	
 }
 
-.copyright img{
+.copyright img
+{
 	width: 5rem;
 	height: 5rem;
 	margin: 1rem 3rem;
 }
 
-aside{
+aside
+{
 	display: flex;
 	/* border: 1px solid black; */
 	margin: 1rem;
 	justify-content:space-around
 }
 
-footer p{
+footer p
+{
+	margin: 2rem;
+	padding-left: 93rem;
 	color: #f1f1f1;
 }
 
