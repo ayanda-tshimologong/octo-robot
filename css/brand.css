@@ -1,0 +1,162 @@
+/* BRAND */
+
+/* OUR COLOURS */
+body{
+    margin-left:35rem;
+    background-color: azure;
+}
+.colour{
+
+	height:160px;
+	width:160px;
+	border:none;
+}
+/* .blue{
+	background-color: #0B2343;
+
+	color:#ffcc05;
+	animation: bounce 1s;
+	
+
+} */
+.colour-group{
+	margin-top: 5rem;
+	
+}
+.blue {
+	width:140px;
+	height:140px;
+	border-radius:100%;
+	background:#0b2343;
+	animation: bounce 1s;
+	transform: translateY(0px);
+	animation-iteration-count: infinite;
+	position:absolute;
+	margin-top:10rem;
+	margin-left:30px;
+	
+  }
+  
+
+@keyframes bounce {
+	0% {top: 0;
+		-webkit-animation-timing-function: ease-in;
+	}
+	40% {}
+	50% {top: 140px;
+		height: 140px;
+		-webkit-animation-timing-function: ease-out;
+	}
+	55% {top: 160px; height: 120px; 
+		-webkit-animation-timing-function: ease-in;}
+	65% {top: 120px; height: 140px; 
+		-webkit-animation-timing-function: ease-out;}
+	95% {
+		top: 0;		
+		-webkit-animation-timing-function: ease-in;
+	}
+	100% {top: 0;
+		-webkit-animation-timing-function: ease-in;
+	}
+}
+
+.yellow{
+	
+	width:140px;
+	height:140px;
+	border-radius:100%;
+	background:#ffcc05;
+
+	animation: bounce 2s;
+	transform: translateY(0px);
+	animation-iteration-count: infinite;
+	position:absolute;
+	margin-top:10rem;
+	margin-left:195px;
+}
+	
+.flame{
+	background-color:#FF6B40;
+	width:140px;
+	height:140px;
+	border-radius:100%;
+	background:#FF6B40;
+	animation: bounce 1s;
+	transform: translateY(0px);
+	animation-iteration-count: infinite;
+	position:absolute;
+	margin-top:10rem;
+	margin-left:360px;
+}
+
+.light-blue{
+	width:140px;
+	height:140px;
+	border-radius:100%;
+	background:#00BAE4;
+	animation: bounce 2s;
+	transform: translateY(0px);
+	animation-iteration-count: infinite;
+	position:absolute;
+	margin-top:10rem;
+	margin-left:520px
+}
+
+/* TYPOGRAPHY */
+h1{
+	color: #0B2343;
+	font-family: 'Source Sans Pro',sans-serif;
+	font-weight: 900;
+	font-size: 3rem;
+}
+
+h2{
+	color: #0B2343;	
+	font-family: 'Source Sans Pro',sans-serif;
+	font-weight: 700;
+	font-size:2rem;
+}
+
+h3{
+	color: #0B2343;
+	font-family: 'Source Sans Pro',sans-serif;
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+.typo{
+	margin-top: 22rem;
+}
+
+p{
+	font-family:'Montserrat',sans-serif;
+	font-weight: 400;
+	font-size:1.1rem;
+}
+
+.type1
+{
+font-family: 'Montserrat', sans-serif;
+font-size: larger;
+font-weight: bolder;
+
+}
+
+.type2
+{
+font-family: 'Source Sans Pro', sans-serif;
+font-size: larger;
+font-weight: bolder;
+
+}
+
+.logopic{
+	background-color: #0B2343;
+	padding: 10px;
+	height:3.2rem;
+	width:9rem;
+	object-fit:contain;
+	
+}
+
+/* END OF BRAND */

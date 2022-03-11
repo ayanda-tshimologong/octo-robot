@@ -47,8 +47,11 @@ a:hover{
 
 h1{
    font-size:70px; 
+   
 
 }
+
+
 
 h2{
     font-size:60px;
@@ -152,4 +155,7 @@ footer {
     padding: 15px;
     display: inline-block;
 }
+
+/* ============================ */
+
 
