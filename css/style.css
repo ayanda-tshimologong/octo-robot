@@ -51,33 +51,6 @@ ul{
 
 /* =================================================== */
 
-h1{
-	color: #0B2343;
-	font-family: 'Source Sans Pro',sans-serif;
-	font-weight: 900;
-	font-size: 3rem;
-}
-
-h2{
-	color: #0B2343;	
-	font-family: 'Source Sans Pro',sans-serif;
-	font-weight: 700;
-	font-size:2rem;
-}
-
-h3{
-	color: #0B2343;
-	font-family: 'Source Sans Pro',sans-serif;
-	font-weight: 700;
-	font-size: 1.5rem;
-}
-
-
-p{
-	font-family:'Montserrat',sans-serif;
-	font-weight: 400;
-	font-size:1.1rem;
-}
 
 /* ======================================================== */
 
@@ -271,28 +244,6 @@ ul li a:hover
 
 /* end of body */
 /* ============================================================= */
-.colour{
-	height:160px;
-	width:160px;
-	border:none;
-}
-.blue{
-	background-color: #0B2343;
-
-	color:#ffcc05;
-}
-.yellow{
-	background-color:#ffcc05;
-}
-	
-.flame{
-	background-color:#FF6B40;
-}
-
-.light-blue{
-	background-color:#00BAE4;
-}
-
 
 .HeadSec
 {
@@ -338,6 +289,8 @@ aside{
 footer p{
 	color: #f1f1f1;
 }
+
+
 
 
 
