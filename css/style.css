@@ -55,7 +55,6 @@ ul {
 
 /* =================================================== */
 
-<<<<<<< HEAD
 h1 {
   color: #0b2343;
   font-family: "Source Sans Pro", sans-serif;
@@ -82,8 +81,6 @@ p {
   font-weight: 400;
   font-size: 1.1rem;
 }
-=======
->>>>>>> 2170afe13d6ae4a4181fdcda775c904e8b091772
 
 /* ======================================================== */
 
@@ -236,7 +233,6 @@ ul li a:hover {
 }
 
 .dropbtn {
-<<<<<<< HEAD
   /* background-color: #0b2343; */
   color: white;
   /* padding: 16px; */
@@ -244,52 +240,6 @@ ul li a:hover {
   border: none;
   cursor: pointer;
 }
-=======
-	background-color:#0B2343;
-	color: white;
-	/* padding: 16px; */
-	font-size: 16px;
-	border: none;
-	cursor: pointer;
-  }
-  
-  .dropdown {
-	position: relative;
-	display: inline-block;
-  }
-  
-  .dropdown-content {
-	display: none;
-	position: absolute;
-	background-color: #f9f9f9;
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
-  }
-  
-  .dropdown-content a {
-	color: black;
-	padding: 12px 16px;
-	text-decoration: none;
-	display: block;
-  }
-  
-  .dropdown-content a:hover
-   {
-	   background-color:#00BAE4;
-       opacity: 0.1rem;
-	   color:#f1f1f1;
-   }
-  
-  .dropdown:hover .dropdown-content
-   {
-	display: block;
-  }
-  
-  .dropdown:hover .dropbtn {
-	background-color:#ffcc05;
-  }
->>>>>>> 2170afe13d6ae4a4181fdcda775c904e8b091772
 
 .dropdown {
   position: relative;
@@ -395,7 +345,6 @@ ul li a:hover {
 
 /* end of body */
 /* ============================================================= */
-<<<<<<< HEAD
 .colour {
   height: 160px;
   width: 160px;
@@ -416,16 +365,6 @@ ul li a:hover {
 
 .light-blue {
   background-color: #00bae4;
-=======
-
-.HeadSec
-{
-	display: flex;
-	justify-content: space-around;
-	word-wrap: break-word;
-	/* background-color: #f07d5a ; */
-
->>>>>>> 2170afe13d6ae4a4181fdcda775c904e8b091772
 }
 
 .HeadSec {
@@ -439,31 +378,14 @@ ul li a:hover {
   width: 15%;
 }
 
-<<<<<<< HEAD
 .content:hover {
   border-bottom: 0.5rem solid rgba(0, 0, 0, 0.2);
-=======
-iframe
-{
-	margin-left: 40rem;
-}
-
-address h2,address h2 ul li
-{
-	padding-right: 35rem;
-}
-
-
-.copyright{
-	display: flex;
->>>>>>> 2170afe13d6ae4a4181fdcda775c904e8b091772
 }
 
 .copyright {
   display: flex;
 }
 
-<<<<<<< HEAD
 footer {
   background-color: #0b2343;
 }
@@ -484,39 +406,3 @@ aside {
 footer p {
   color: #f1f1f1;
 }
-=======
-.copyright img
-{
-	width: 5rem;
-	height: 5rem;
-	margin: 1rem 3rem;
-}
-
-aside
-{
-	display: flex;
-	/* border: 1px solid black; */
-	margin: 1rem;
-	justify-content:space-around
-}
-
-footer p
-{
-	margin: 2rem;
-	padding-left: 93rem;
-	color: #f1f1f1;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> 2170afe13d6ae4a4181fdcda775c904e8b091772
