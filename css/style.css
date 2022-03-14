@@ -13,7 +13,8 @@ font-family: 'Source Sans Pro', sans-serif;
 */
 /* ========================================================= */
 
-html {
+html 
+{
   box-sizing: border-box;
 }
 
@@ -97,12 +98,14 @@ ul li a {
   text-decoration: none;
 }
 
-ul li a:hover {
+ul li a:hover 
+{
   background-color: #ffcc05;
   color: #0b2343;
 }
 
-.logo-dark {
+.logo-dark
+ {
   /* background-color: #0b2343; */
   height: 3.2rem;
   width: 9rem;
@@ -135,7 +138,8 @@ ul li a:hover {
 	font-size: 3rem;
 } */
 
-.introduction div {
+.introduction div 
+{
   display: inline-block;
   overflow: hidden;
 
@@ -405,7 +409,7 @@ aside {
 }
 
 address{
-	padding-left: 5rem;
+	padding-left: 6rem;
 	padding-top: 3rem;
 	
 }
@@ -414,6 +418,6 @@ address{
 
 footer p {
   color: #f1f1f1;
-  padding-left: 65rem;
+  padding-left: 90rem;
 }
 
