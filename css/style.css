@@ -13,8 +13,7 @@ font-family: 'Source Sans Pro', sans-serif;
 */
 /* ========================================================= */
 
-html 
-{
+html {
   box-sizing: border-box;
 }
 
@@ -25,12 +24,8 @@ html
 }
 
 .i2 {
-
   height: 4.5rem;
- 
 }
-
-
 
 body {
   margin: 0 auto;
@@ -40,7 +35,6 @@ ul {
   padding: 0;
   list-style: none;
 }
-
 
 /* =================================================== */
 
@@ -98,14 +92,12 @@ ul li a {
   text-decoration: none;
 }
 
-ul li a:hover 
-{
+ul li a:hover {
   background-color: #ffcc05;
   color: #0b2343;
 }
 
-.logo-dark
- {
+.logo-dark {
   /* background-color: #0b2343; */
   height: 3.2rem;
   width: 9rem;
@@ -115,8 +107,7 @@ ul li a:hover
 }
 
 /* do drop down menu and a picture */
-.droop
- {
+.droop {
   display: inline-block;
   position: relative;
 }
@@ -131,21 +122,18 @@ ul li a:hover
   height: 30rem;
   /*   overflow:hidden; */
   -webkit-backface-visibility: hidden;
-    /* -webkit-perspective: 1000; */
+  /* -webkit-perspective: 1000; */
   -webkit-transform: translate3d(0, 0, 0);
 }
 /* .introduction div h2{
 	font-size: 3rem;
 } */
 
-.introduction div 
-{
+.introduction div {
   display: inline-block;
   overflow: hidden;
 
   white-space: nowrap;
-  
-  
 }
 
 .introduction div:first-of-type {
@@ -261,9 +249,8 @@ ul li a:hover
   display: block;
 }
 
-.dropdown-content a:hover 
-{
-  background-color: #00BAE4;
+.dropdown-content a:hover {
+  background-color: #00bae4;
   opacity: 0.8;
 }
 
@@ -363,8 +350,7 @@ ul li a:hover
   background-color: #00bae4;
 }
 
-.HeadSec
- {
+.HeadSec {
   display: flex;
   justify-content: space-around;
   word-wrap: break-word;
@@ -373,12 +359,10 @@ ul li a:hover
 
 .content {
   width: 15%;
-
 }
 
-.content h4
-{
-	font-size: large;
+.content h4 {
+  font-size: large;
 }
 
 .content:hover {
@@ -389,8 +373,7 @@ ul li a:hover
   display: flex;
 }
 
-footer 
-{
+footer {
   background-color: #0b2343;
 }
 
@@ -403,21 +386,15 @@ footer
 aside {
   display: flex;
   margin: 1rem;
-  justify-content:center;
-  
-  
+  justify-content: center;
 }
 
-address{
-	padding-left: 6rem;
-	padding-top: 3rem;
-	
+address {
+  padding-left: 6rem;
+  padding-top: 3rem;
 }
-
-
 
 footer p {
   color: #f1f1f1;
-  padding-left: 90rem;
+  padding-left: 75rem;
 }
-
