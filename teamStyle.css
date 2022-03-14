@@ -1,15 +1,29 @@
+html 
+{
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
 body
 {
     margin: 0%;
     padding: 0%;
 }
+
+
+
+
 .NAVBARB
 {
 	display: flex;
 	justify-content: space-between;
 	background-color: #0B2343;
-	padding: 10px;
+    padding:10px 0;
 	width: 100%;
 	position: fixed;
 }
@@ -31,7 +45,7 @@ body
 ul li a
 {
      color:#f7fdff;
-	 padding: 15px;
+	 padding: 10px;
 	text-decoration: none;
 	
 } 
@@ -148,13 +162,15 @@ ul li a
   .teamSection
   {
       display: flex;
+      justify-content: space-between;
+      margin-left: 1.5rem;
   }
 
-  .gitPic
+  /* .gitPic
   {
       padding-left: 60rem;
       padding-top: 2rem;
-  }
+  } */
 
   .ayanda2
   {
@@ -173,6 +189,8 @@ ul li a
 .copyright{
 	display: flex;
     margin-top: 11.2rem;
+    position:fixed;
+    position: relative;
 
 }
 
@@ -193,14 +211,19 @@ aside
 	display: flex;
 	/* border: 1px solid black; */
 	margin: 1rem;
-	justify-content:space-around
+	justify-content: space-around;
 }
 
 footer p
 {
 	margin: 2rem;
-	padding-left: 93rem;
+	/* padding-left: 93rem; */
 	color: #f1f1f1;
+    margin-left:70rem;
+
+   
+   
+
 }
 
 /* =========================================  */
